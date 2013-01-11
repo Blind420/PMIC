@@ -1,0 +1,58 @@
+<HBProfile>
+
+<Name>Jade Lungfish by Gatherit</Name>
+<MinDurability>0.4</MinDurability>
+<MinFreeBagSlots>1</MinFreeBagSlots>
+
+<MinLevel>1</MinLevel>
+<MaxLevel>91</MaxLevel>
+<Factions>99999</Factions>
+
+<MailGrey>false</MailGrey>
+<MailWhite>false</MailWhite>
+<MailGreen>false</MailGreen>
+<MailBlue>false</MailBlue>
+<MailPurple>false</MailPurple>
+
+<SellGrey>false</SellGrey>
+<SellWhite>false</SellWhite>
+<SellGreen>false</SellGreen>
+<SellBlue>false</SellBlue>
+<SellPurple>false</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Blackspots>
+</Blackspots>
+
+<Hotspots>
+<Hotspot X="2376.951" Y="-176.9095" Z="382.4237" />
+<Hotspot X="2073.021" Y="-227.0447" Z="437.3585" />
+<Hotspot X="1969.446" Y="-187.7201" Z="458.352" />
+<Hotspot X="1656.34" Y="-350.1771" Z="456.5866" />
+<Hotspot X="1436.037" Y="-1038.867" Z="288.4735" />
+<Hotspot X="1136.719" Y="-1336.803" Z="174.4633" />
+<Hotspot X="661.3444" Y="-1650.468" Z="60.24049" />
+<Hotspot X="615.1124" Y="-1804.571" Z="89.9619" />
+<Hotspot X="959.9045" Y="-1838.839" Z="85.48862" />
+<Hotspot X="780.5417" Y="-2016.443" Z="87.76801" />
+<Hotspot X="611.5709" Y="-1812.327" Z="80.46828" />
+<Hotspot X="184.6207" Y="-1774.434" Z="57.39741" />
+<Hotspot X="25.36834" Y="-1962.881" Z="39.91763" />
+<Hotspot X="7.181329" Y="-2181.175" Z="32.06735" />
+<Hotspot X="22.07769" Y="-2002.022" Z="40.84795" />
+<Hotspot X="191.0266" Y="-1778.733" Z="52.11127" />
+<Hotspot X="873.1064" Y="-1523.224" Z="89.0712" />
+<Hotspot X="1361.833" Y="-1132.655" Z="235.5245" />
+<Hotspot X="1490.74" Y="-878.8598" Z="297.3167" />
+<Hotspot X="1629.066" Y="-423.2998" Z="380.2247" />
+<Hotspot X="1854.902" Y="-190.3795" Z="405.7979" />
+<Hotspot X="2025.302" Y="-211.4631" Z="412.0679" />
+<Hotspot X="2256.99" Y="-209.2426" Z="343.2073" />
+<Hotspot X="2382.996" Y="-172.245" Z="317.8063" />
+</Hotspots>
+</HBProfile>

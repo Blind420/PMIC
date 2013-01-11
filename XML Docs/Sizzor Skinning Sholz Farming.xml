@@ -1,0 +1,85 @@
+<HBProfile>
+	<Name>Sizzorz Profile</Name>
+	<MinDurability>0.4</MinDurability>
+	<MinFreeBagSlots>5</MinFreeBagSlots>
+	<SellGrey>True</SellGrey>
+	<SellWhite>False</SellWhite>
+	<SellGreen>False</SellGreen>
+	<SellBlue>False</SellBlue>
+	<SellPurple>False</SellPurple>
+	<ProtectedItems>
+	<Item>4304</Item>
+    	<Item>4234</Item>
+    	<Item>1645</Item>   
+    	<Item>33454</Item> 	
+    	<Item>4538</Item>
+    	<Item>8766</Item>
+    	<Item>28399</Item>
+    	<Item>27855</Item>
+    	<Item>7005</Item>
+	<Item>33447</Item>
+	<Item>33448</Item>
+	<Item>17029</Item>
+	<Item>33568</Item>
+	<Item>33567</Item>
+	<Item>38425</Item>
+	</ProtectedItems>
+
+	<SubProfile>
+		<Name>Sholazar Basin Monkey Farming</Name>
+		<MinLevel>74</MinLevel>
+		<MaxLevel>81</MaxLevel>
+		<Factions>189 14 35</Factions>
+		<Hotspots>
+		<Hotspot X="5069.168" Y="4496.391" Z="-99.08208" />
+		<Hotspot X="5160.752" Y="4431.248" Z="-95.11954" />
+		<Hotspot X="5231.891" Y="4301.812" Z="-96.22985" />
+		<Hotspot X="5134.483" Y="4124.658" Z="-74.06858" />
+		<Hotspot X="5556.35" Y="5669.952" Z="-83.76598" />
+		<Hotspot X="5629.856" Y="5561.136" Z="-87.02018" />
+		<Hotspot X="5576.31" Y="5342.95" Z="-133.8019" />
+		<Hotspot X="5543.061" Y="5247.195" Z="-135.8672" />
+		</Hotspots>
+		<Blackspots>
+		<Blackspot X="5251.214" Y="5056.966" Z="-130.5152" Radius="30" />
+		<Blackspot X="5170.2" Y="5090.205" Z="-126.5344" Radius="30" />
+		<Blackspot X="5212.5" Y="4700.785" Z="-127.2121" Radius="30" />
+		<Blackspot X="5029.246" Y="4350.388" Z="-84.97445" Radius="30" />
+		<Blackspot X="4941.115" Y="4223.86" Z="-83.55291" Radius="30" />
+		<Blackspot X="5250.92" Y="4244.878" Z="-96.09944" Radius="30" />
+		<Blackspot X="5279.006" Y="4204.216" Z="-93.58453" Radius="30" />
+		<Blackspot X="5118.433" Y="4295.297" Z="-102.1368" Radius="30" />
+		<Blackspot X="4925.518" Y="4491.46" Z="-71.16671" Radius="30" />
+		<Blackspot X="5036.249" Y="4333.424" Z="-84.31898" Radius="30" />
+		<Blackspot X="5040.047" Y="4295.406" Z="-84.28339" Radius="40" />
+		<Blackspot X="5061.44" Y="4269.55" Z="-83.80657" Radius="40" />
+		<Blackspot X="5078.97" Y="4236.405" Z="-77.03324" Radius="40" />
+		<Blackspot X="5095.765" Y="4214.853" Z="-77.83402" Radius="40" />
+		<Blackspot X="5096.041" Y="4181.791" Z="-80.5151" Radius="40" />
+		<Blackspot X="5058.81" Y="4119.672" Z="-54.07383" Radius="40" />
+		<Blackspot X="5021.258" Y="4130.218" Z="-43.30523" Radius="40" />
+		<Blackspot X="5024.299" Y="4147.148" Z="-47.48908" Radius="40" />
+		<Blackspot X="5078.204" Y="4150.85" Z="-62.10083" Radius="40" />
+		<Blackspot X="5059.425" Y="4522.02" Z="-95.49596" Radius="40" />
+		<Blackspot X="5055.594" Y="4519.1" Z="-93.19907" Radius="40" />
+		<blackspot X="5052.002" Y="4516.583" Z="-92.10946" Radius="40" />
+		<Blackspot X="5093.713" Y="4379.458" Z="-92.24659" Radius="40" />
+		<Blackspot X="5100.658" Y="4372.13" Z="-90.88433" Radius="40" />
+		</Blackspots>
+		<Vendors>
+		<Vendor Name="Grakjek" Entry="29014" Type="Ammo" X="5244.74" Y="4493.283" Z="-84.37807" />
+		<Vendor Name="Rarkag" Entry="29122" Type="Food" X="5270.159" Y="4532.592" Z="-83.03556" />
+		<Vendor Name="Mardan Thunderhoof" Entry="28040" Type="Ammo" X="5552.257" Y="5738.877" Z="-76.21708" />
+		<Vendor Name="Purser Boulian" Entry="28038" Type="Food" X="5566.248" Y="5763.706" Z="-75.22583" />
+		<Vendor Name="Mardan Thunderhoof" Entry="28040" Type="Repair" X="5552.257" Y="5738.877" Z="-76.21694" />		</Vendors>
+		<Mailboxes>
+		<Mailbox X="5563.031" Y="5758.795" Z="-75.22491" />
+		</Mailboxes>
+		<AvoidMobs>
+		<AvoidMob Name="Servant of Freya" Entry="29036" />
+		<AvoidMob Name="Stranded Thresher" Entry="28010" />
+      		<AvoidMob Name="Venture Co. Excavator" Entry="28123" />
+      		<AvoidMob Name="Venture Co. Ruffian" Entry="28124" />
+		</AvoidMobs>
+	</SubProfile>
+</HBProfile>

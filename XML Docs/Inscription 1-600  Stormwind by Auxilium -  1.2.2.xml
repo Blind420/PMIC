@@ -1,0 +1,1530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Professionbuddy>
+  <While Condition="Inscription.Level &lt; 600" IgnoreCanRun="True">
+    <ChangeBotAction BotName="Combat Bot" />
+    <If Condition="InbagCount(39505) &lt; 1" IgnoreCanRun="True">
+      <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60993" ItemID="39505" BuyItemType="SpecificItem" Count="1" BuyAdditively="True" />
+    </If>
+    <If Condition="Me.FreeNormalBagSlots &lt;= 3" IgnoreCanRun="True">
+      <MailItemAction Category="Consumable" SubCategoryType="WoWItemContainerClass" SubCategory="Scroll" Mail="All" UseCategory="True" ItemID="" Amount="0" AutoFindMailBox="True" Location="0, 0, 0" />
+      <MailItemAction Category="Glyph" SubCategoryType="WoWItemGlyphClass" SubCategory="None" Mail="All" UseCategory="True" ItemID="" Amount="0" AutoFindMailBox="True" Location="0, 0, 0" />
+    </If>
+    <If Condition="InbagCount(39354) &lt; 41" IgnoreCanRun="True">
+      <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60985" ItemID="39354" BuyItemType="SpecificItem" Count="400" BuyAdditively="True" />
+    </If>
+    <While Condition="Inscription.Level &lt; 250 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+      <While Condition="Inscription.Level &lt; 35 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="InbagCount (37101) &lt; 5 &amp;&amp; Inscription.Level &lt; 5" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="37101" BuyItemType="SpecificItem" Count="35" BuyAdditively="True" />
+        </If>
+        <If Condition="!HasRecipe(48114)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (37101) &lt; 1" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="37101" BuyItemType="SpecificItem" Count="1" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (48114) &amp;&amp; Inscription.Level &lt; 35" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="48114" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 80 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="InbagCount (39469) &lt; 5 &amp;&amp; Inscription.Level &lt; 40" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="39469" BuyItemType="SpecificItem" Count="45" BuyAdditively="True" />
+        </If>
+        <If Condition="!HasRecipe(52739)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (39469) &lt; 1" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="39469" BuyItemType="SpecificItem" Count="1" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (52739) &amp;&amp; Inscription.Level &lt; 80" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="52739" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+        <If Condition="Inscription.Level == 75" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+      </While>
+      <While Condition="Inscription.Level &lt; 90 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="InbagCount (39774) &lt; 3  &amp;&amp; Inscription.Level &lt; 85" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="39774" BuyItemType="SpecificItem" Count="20" BuyAdditively="True" />
+        </If>
+        <If Condition="!HasRecipe(57114)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (39774) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="39774" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57114) &amp;&amp; Inscription.Level &lt; 90" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57114" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 100 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(56978)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (39774) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="39774" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (56978) &amp;&amp; Inscription.Level &lt; 100" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="56978" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 105 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(67600)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (39774) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="39774" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (67600) &amp;&amp; Inscription.Level &lt; 105" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="67600" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 110 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="InbagCount (43116) &lt; 3  &amp;&amp; Inscription.Level &lt; 110" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43116" BuyItemType="SpecificItem" Count="60" BuyAdditively="True" />
+        </If>
+        <If Condition="!HasRecipe(57184)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43116) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43116" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57184) &amp;&amp; Inscription.Level &lt; 110" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57184" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 115 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57238)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43116) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43116" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57238) &amp;&amp; Inscription.Level &lt; 115" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57238" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 120 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(56945)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43116) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43116" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (56945) &amp;&amp; Inscription.Level &lt; 120" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="56945" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 125 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(94401)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43116) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43116" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (94401) &amp;&amp; Inscription.Level &lt; 125" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="94401" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 130 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57262)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43116) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43116" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57262) &amp;&amp; Inscription.Level &lt; 130" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57262" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 135 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57005)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43116) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43116" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57005) &amp;&amp; Inscription.Level &lt; 135" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57005" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 140 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57188)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43116) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43116" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57188) &amp;&amp; Inscription.Level &lt; 140" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57188" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 150 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57269)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43116) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43116" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57269) &amp;&amp; Inscription.Level &lt; 150" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57269" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 155 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="InbagCount (43118) &lt; 3 &amp;&amp; Inscription.Level &lt; 155" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43118" BuyItemType="SpecificItem" Count="65" BuyAdditively="True" />
+        </If>
+        <If Condition="!HasRecipe(57007)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43118) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43118" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57007) &amp;&amp; Inscription.Level &lt; 155" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57007" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 160 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(112451)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43118) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43118" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (112451) &amp;&amp; Inscription.Level &lt; 160" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112451" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 165 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57125)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43118) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43118" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57125) &amp;&amp; Inscription.Level &lt; 165" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57125" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 170 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57271)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43118) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43118" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57271) &amp;&amp; Inscription.Level &lt; 170" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57271" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 175 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57161)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43118) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43118" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57161) &amp;&amp; Inscription.Level &lt; 175" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57161" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 180 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(56994)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43118) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43118" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (56994) &amp;&amp; Inscription.Level &lt; 180" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="56994" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 185 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(92579)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43118) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43118" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (92579) &amp;&amp; Inscription.Level &lt; 185" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="92579" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 190 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57129)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43118) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43118" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57129) &amp;&amp; Inscription.Level &lt; 190" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57129" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 200 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57277)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43118) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43118" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57277) &amp;&amp; Inscription.Level &lt; 200" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57277" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 205 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57000)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43120) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43120" BuyItemType="SpecificItem" Count="60" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57000) &amp;&amp; Inscription.Level &lt; 205" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57000" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 210 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57023)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43120) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43120" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57023) &amp;&amp; Inscription.Level &lt; 210" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57023" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 215 &amp;&amp; Me.FreeNormalBagSlots &gt;3   &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57201)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43120) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43120" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57201) &amp;&amp; Inscription.Level &lt; 215" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57201" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 220 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57242)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43120) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43120" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57242) &amp;&amp; Inscription.Level &lt; 220" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57242" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 225 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(112437)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43120) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43120" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (112437) &amp;&amp; Inscription.Level &lt; 225" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112437" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 230 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57001)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43120) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43120" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57001) &amp;&amp; Inscription.Level &lt; 230" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57001" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 235 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57024)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43120) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43120" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57024) &amp;&amp; Inscription.Level &lt; 235" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57024" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 240 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57244)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43120) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43120" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57244) &amp;&amp; Inscription.Level &lt; 240" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57244" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 250 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57154)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43120) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43120" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57154) &amp;&amp; Inscription.Level &lt; 250" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57154" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+    </While>
+    <While Condition="Inscription.Level &gt;= 250 &amp;&amp; Inscription.Level &lt; 400 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+      <While Condition="Inscription.Level &lt; 255 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(64261)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43122) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43122" BuyItemType="SpecificItem" Count="50" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (64261) &amp;&amp; Inscription.Level &lt; 255" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64261" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 260 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(112457)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43122) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43122" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (112457) &amp;&amp; Inscription.Level &lt; 260" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112457" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 265 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(56957)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43122) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43122" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (56957) &amp;&amp; Inscription.Level &lt; 265" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="56957" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 270 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57210)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43122) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43122" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57210) &amp;&amp; Inscription.Level &lt; 270" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57210" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 275 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57216)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43122) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43122" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57216) &amp;&amp; Inscription.Level &lt; 275" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57216" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 280 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(96284)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43122) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43122" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (96284) &amp;&amp; Inscription.Level &lt; 280" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="96284" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 285 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57219)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43122) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43122" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57219) &amp;&amp; Inscription.Level &lt; 285" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57219" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 290 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57156)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43122) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43122" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57156) &amp;&amp; Inscription.Level &lt; 290" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57156" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 295 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(50618)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43122) &lt; 1" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43122" BuyItemType="SpecificItem" Count="1" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (50618) &amp;&amp; Inscription.Level &lt; 295" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="50618" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 300 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(112450)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="65" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (112450) &amp;&amp; Inscription.Level &lt; 300" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112450" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 305 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57221)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57221) &amp;&amp; Inscription.Level &lt; 305" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57221" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 310 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57122)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57122) &amp;&amp; Inscription.Level &lt; 310" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57122" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 315 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(56952)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (56952) &amp;&amp; Inscription.Level &lt; 315" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="56952" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 320 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57187)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57187) &amp;&amp; Inscription.Level &lt; 320" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57187" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 325 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(112442)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (112442) &amp;&amp; Inscription.Level &lt; 325" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112442" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 330 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57275)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57275) &amp;&amp; Inscription.Level &lt; 330" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57275" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 335 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57252)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57252) &amp;&amp; Inscription.Level &lt; 335" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57252" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 340 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(56972)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (56972) &amp;&amp; Inscription.Level &lt; 340" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="56972" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 345 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57113)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57113) &amp;&amp; Inscription.Level &lt; 345" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57113" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 350 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57227)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57227) &amp;&amp; Inscription.Level &lt; 350" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57227" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 355 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57257)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57257) &amp;&amp; Inscription.Level &lt; 355" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57257" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 360 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(112440)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43126) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43126" BuyItemType="SpecificItem" Count="90" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (112440) &amp;&amp; Inscription.Level &lt; 360" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112440" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 365 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(112452)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43126) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43126" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (112452) &amp;&amp; Inscription.Level &lt; 365" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112452" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 370 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(112454)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43126) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43126" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (112454) &amp;&amp; Inscription.Level &lt; 370" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112454" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 375 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(112444)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43126) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43126" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (112444) &amp;&amp; Inscription.Level &lt; 375" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112444" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 380 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(57006)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43126) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43126" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (57006) &amp;&amp; Inscription.Level &lt; 380" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57006" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 383 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(112458)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43126) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43126" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (112458) &amp;&amp; Inscription.Level &lt; 383" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112458" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          <WaitAction Condition="false" Timeout="1000" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 385 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(58482)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43126) &lt; 1" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43126" BuyItemType="SpecificItem" Count="1" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (58482) &amp;&amp; Inscription.Level &lt; 385" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="58482" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          <WaitAction Condition="false" Timeout="1000" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 386 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(61177)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43126) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43126" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <If Condition="InbagCount (43127) &lt; 1" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43127" BuyItemType="SpecificItem" Count="1" BuyAdditively="True" />
+        </If>
+        <CastSpellAction RepeatType="Specific" Repeat="1" Entry="61177" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        <WaitAction Condition="false" Timeout="2000" />
+      </While>
+      <While Condition="Inscription.Level &lt; 400 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(61177)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43126) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43126" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="InbagCount(43126) &gt; 2 &amp;&amp; Inscription.Level &lt; 400" IgnoreCanRun="True">
+          <If Condition="HasRecipe(57155)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57155" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57126)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57126" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(56946)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="56946" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57014)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57014" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(56988)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="56988" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(59561)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="59561" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57193)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57193" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(56947)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="56947" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(56983)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="56983" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57130)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57130" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(56949)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="56949" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57035)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57035" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57189)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57189" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(59560)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="59560" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(56996)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="56996" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57214)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57214" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57264)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57264" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(59559)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="59559" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57124)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57124" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(56998)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="56998" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(56999)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="56999" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57220)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57220" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57263)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57263" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57237)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57237" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57019)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57019" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(61677)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="61677" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57247)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57247" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57243)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57243" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57207)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57207" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57223)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57223" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57115)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57115" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57034)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57034" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57153)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57153" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57235)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57235" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57233)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57233" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57250)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57250" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57211)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57211" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57128)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57128" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57181)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57181" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(56975)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="56975" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57258)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57258" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57116)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57116" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(56986)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="56986" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57268)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57268" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57159)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57159" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57190)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57190" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57012)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57012" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57199)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57199" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57160)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57160" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57261)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57261" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57202)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57202" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57191)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57191" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57117)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57117" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(56954)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="56954" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57164)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57164" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57011)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57011" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57112)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57112" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57152)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57152" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(56958)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="56958" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57127)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57127" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57010)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57010" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(56944)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="56944" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(56989)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="56989" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57195)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57195" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57234)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57234" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(56960)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="56960" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57267)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57267" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57028)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57028" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57021)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57021" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(56950)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="56950" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57208)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57208" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57276)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57276" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57232)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57232" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57260)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57260" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57170)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57170" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64304)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64304" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64309)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64309" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64315)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64315" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64317)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64317" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64305)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64305" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64255)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64255" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64316)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64316" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64313)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64313" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64314)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64314" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64311)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64311" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64307)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64307" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64308)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64308" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64310)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64310" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64256)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43120) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43120" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64256" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64257)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43120) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43120" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64257" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64254)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43120) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43120" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64257" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64277)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64277" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64294)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64294" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64271)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64271" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64303)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64303" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64297)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64297" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64298)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64298" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64296)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64296" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64318)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64318" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64280)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64280" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64279)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64279" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64288)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64288" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64278)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64278" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64276)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64276" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64285)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64285" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64281)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64281" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64283)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64283" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64282)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64282" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64289)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64289" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64275)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64275" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64291)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64291" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64302)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64302" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64286)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64286" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64268)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64268" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64287)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64287" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64300)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64300" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64273)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64273" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64284)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64284" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64274)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64274" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64295)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64295" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64270)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43124) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43124" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64270" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64250)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43116) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43116" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43116" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64250" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64251)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43116) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43116" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64251" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64249)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43116) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43116" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64249" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64252)" IgnoreCanRun="True">
+            <If Condition="InbagCount (43116) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43116" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64252" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64248)" IgnoreCanRun="True">
+            <If Condition="InbagCount (39774) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="39774" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64248" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64246)" IgnoreCanRun="True">
+            <If Condition="InbagCount (39774) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="39774" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64246" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(64247)" IgnoreCanRun="True">
+            <If Condition="InbagCount (39774) &lt; 3" IgnoreCanRun="True">
+              <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="39774" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+            </If>
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="64247" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+        </While>
+      </While>
+    </While>
+    <While Condition="Inscription.Level &gt;= 400 &amp;&amp; Inscription.Level &lt; 600 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+      <While Condition="Inscription.Level &lt; 405 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(50620)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43126) &lt; 1" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43126" BuyItemType="SpecificItem" Count="1" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (50620) &amp;&amp; Inscription.Level &lt; 405" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="50620" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 410 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(50611)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43126) &lt; 1" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43126" BuyItemType="SpecificItem" Count="1" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (50611) &amp;&amp; Inscription.Level &lt; 410" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="50611" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 415 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(50604)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43126) &lt; 1" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43126" BuyItemType="SpecificItem" Count="1" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (50604) &amp;&amp; Inscription.Level &lt; 415" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="50604" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 420 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(58491)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43126) &lt; 1" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43126" BuyItemType="SpecificItem" Count="1" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (58491) &amp;&amp; Inscription.Level &lt; 420" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="58491" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 425 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(58483)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43126) &lt; 1" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43126" BuyItemType="SpecificItem" Count="1" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (58483) &amp;&amp; Inscription.Level &lt; 425" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="58483" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 440 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(86004)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (61979) &lt; 20" IgnoreCanRun="True">
+          <DisenchantAction ActionType="Mill" ItemTarget="All" ItemQuality="Uncommon" ItemId="0" />
+        </If>
+        <While Condition="HasMats (86004) &amp;&amp; Inscription.Level &lt; 440" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="86004" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 445 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(124452)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43126) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43126" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (124452) &amp;&amp; Inscription.Level &lt; 445" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="124452" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 450 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(124453)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43126) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43126" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (124453) &amp;&amp; Inscription.Level &lt; 450" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="124453" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 455 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(124442)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43126) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43126" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (124442) &amp;&amp; Inscription.Level &lt; 455" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="124442" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 460 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(124459)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43120) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43120" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (124459) &amp;&amp; Inscription.Level &lt; 460" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="124459" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 465 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(124445)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43126) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43126" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (124445) &amp;&amp; Inscription.Level &lt; 465" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="124445" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 470 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(124455)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43126) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43126" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (124455) &amp;&amp; Inscription.Level &lt; 470" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="124455" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 475 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(124456)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43126) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43126" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (124456) &amp;&amp; Inscription.Level &lt; 475" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="124456" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 485 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(92027)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (61978) &lt; 1" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="61978" BuyItemType="SpecificItem" Count="1" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (92027) &amp;&amp; Inscription.Level &lt; 485" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="92027" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 490 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(112462)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43126) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43126" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (112462) &amp;&amp; Inscription.Level &lt; 490" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112462" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 495 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(112469)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43126) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43126" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (112469) &amp;&amp; Inscription.Level &lt; 495" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112469" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 500 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(112463)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <If Condition="InbagCount (43126) &lt; 3" IgnoreCanRun="True">
+          <BuyItemAction NpcEntry="30730" Location="-8863.968, 861.5417, 99.60986" ItemID="43126" BuyItemType="SpecificItem" Count="3" BuyAdditively="True" />
+        </If>
+        <While Condition="HasMats (112463) &amp;&amp; Inscription.Level &lt; 500" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112463" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level &lt; 540 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(111645)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <DisenchantAction ActionType="Mill" ItemTarget="All" ItemQuality="Uncommon" ItemId="0" />
+        <While Condition="HasMats (111645) &amp;&amp; Inscription.Level &lt; 540" IgnoreCanRun="True">
+          <CastSpellAction RepeatType="Specific" Repeat="1" Entry="111645" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          <WaitAction Condition="false" Timeout="500" />
+        </While>
+      </While>
+      <While Condition="Inscription.Level == 540 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <If Condition="!HasRecipe(112996)" IgnoreCanRun="True">
+          <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+        </If>
+        <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112996" CastOnItem="False" ItemType="Chest" ItemId="0" />
+        <WaitAction Condition="false" Timeout="2000" />
+      </While>
+      <While Condition="Inscription.Level &lt; 600 &amp;&amp; Me.FreeNormalBagSlots &gt; 3  &amp;&amp; InbagCount(39354) &gt; 40" IgnoreCanRun="True">
+        <While Condition="Inscription.Level &lt; 600" IgnoreCanRun="True">
+          <If Condition="HasRecipe(124443)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="124443" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(122266)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112266" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(124444)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="124444" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(112430)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112430" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(124446)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="124446" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(126153)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="126153" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(112429)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112429" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(126701)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="126701" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(124447)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="124447" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(124448)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="124448" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(57037)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="57037" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(124449)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="124449" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(126687)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="126687" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(112464)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112464" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(122015)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="122015" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(112465)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112465" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(124450)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="124450" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(126704)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="126704" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(122030)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="122030" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(112265)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112265" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(112466)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112466" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(124461)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="124461" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(126800)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="126800" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(124454)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="124454" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(112468)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112468" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(119481)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="119481" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(123781)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="123781" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(112264)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112264" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(124466)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="124466" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(126696)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="126696" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(124457)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="124457" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(124460)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="124460" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(112461)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112461" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+          <If Condition="HasRecipe(112460)" IgnoreCanRun="True">
+            <CastSpellAction RepeatType="Specific" Repeat="1" Entry="112460" CastOnItem="False" ItemType="Chest" ItemId="0" />
+          </If>
+        </While>
+        <TrainSkillAction NpcEntry="30713" Location="-8862.502, 857.1962, 99.61038" />
+      </While>
+    </While>
+  </While>
+</Professionbuddy>

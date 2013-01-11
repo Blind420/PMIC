@@ -1,0 +1,81 @@
+<HBProfile>
+///////////////////////////////////////////////////
+//                                               //
+// Profile generated with ZapRecorder2 v1.2.0    //
+// Created by BadWolf                            //
+//                                               //
+///////////////////////////////////////////////////
+<Name>VoEB Fishing</Name>
+<MinDurability>0.4</MinDurability>
+<MinFreeBagSlots>1</MinFreeBagSlots>
+
+<MinLevel>1</MinLevel>
+<MaxLevel>91</MaxLevel>
+<Factions>99999</Factions>
+
+<MailGrey>false</MailGrey>
+<MailWhite>false</MailWhite>
+<MailGreen>false</MailGreen>
+<MailBlue>false</MailBlue>
+<MailPurple>false</MailPurple>
+
+<SellGrey>false</SellGrey>
+<SellWhite>false</SellWhite>
+<SellGreen>false</SellGreen>
+<SellBlue>false</SellBlue>
+<SellPurple>false</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<Blackspots>
+</Blackspots>
+
+<Hotspots>
+<Hotspot X="520.6608" Y="-761.3621" Z="234.2686" />
+<Hotspot X="479.0526" Y="-758.3117" Z="235.0817" />
+<Hotspot X="421.3326" Y="-755.1888" Z="239.2318" />
+<Hotspot X="361.8634" Y="-752.6575" Z="239.5859" />
+<Hotspot X="303.3612" Y="-740.5998" Z="240.488" />
+<Hotspot X="249.1996" Y="-716.4672" Z="237.6249" />
+<Hotspot X="213.6912" Y="-668.4622" Z="233.6011" />
+<Hotspot X="179.3243" Y="-621.6879" Z="235.2007" />
+<Hotspot X="143.957" Y="-571.1155" Z="221.6398" />
+<Hotspot X="113.969" Y="-519.7212" Z="213.1188" />
+<Hotspot X="90.08557" Y="-467.2044" Z="209.6781" />
+<Hotspot X="60.42968" Y="-416.1626" Z="199.6158" />
+<Hotspot X="26.55493" Y="-370.2632" Z="199.821" />
+<Hotspot X="-10.78016" Y="-323.6767" Z="188.2199" />
+<Hotspot X="-54.54086" Y="-286.7671" Z="161.8257" />
+<Hotspot X="-105.077" Y="-251.5944" Z="150.6988" />
+<Hotspot X="-156.8487" Y="-217.6304" Z="149.7625" />
+<Hotspot X="-212.3311" Y="-187.9622" Z="146.5014" />
+<Hotspot X="-266.342" Y="-159.5911" Z="146.6256" />
+<Hotspot X="-321.2867" Y="-131.9724" Z="146.0214" />
+<Hotspot X="-375.9724" Y="-104.5893" Z="146.1735" />
+<Hotspot X="-425.4013" Y="-66.22717" Z="144.0265" />
+<Hotspot X="-465.9804" Y="-21.92386" Z="152.1714" />
+<Hotspot X="-494.1084" Y="8.785587" Z="162.6306" />
+<Hotspot X="-538.3289" Y="52.24274" Z="152.0374" />
+<Hotspot X="-581.1835" Y="92.85648" Z="146.7457" />
+<Hotspot X="-624.1646" Y="133.5902" Z="140.9477" />
+<Hotspot X="-663.1916" Y="179.2577" Z="143.9228" />
+<Hotspot X="-701.481" Y="229.4965" Z="146.0734" />
+<Hotspot X="-736.9086" Y="280.9941" Z="146.2707" />
+<Hotspot X="-765.0176" Y="337.4456" Z="143.8252" />
+<Hotspot X="-785.0753" Y="397.1627" Z="142.0819" />
+<Hotspot X="-793.4993" Y="459.455" Z="140.3144" />
+<Hotspot X="-781.0051" Y="521.337" Z="139.8539" />
+<Hotspot X="-766.452" Y="582.8419" Z="139.8539" />
+<Hotspot X="-752.4366" Y="642.2169" Z="145.0051" />
+<Hotspot X="-739.0318" Y="703.9205" Z="142.2801" />
+<Hotspot X="-731.0229" Y="766.4732" Z="138.193" />
+<Hotspot X="-731.8219" Y="827.4887" Z="139.0607" />
+<Hotspot X="-735.8201" Y="887.9093" Z="140.5629" />
+<Hotspot X="-747.6015" Y="947.088" Z="141.4246" />
+<Hotspot X="-759.4613" Y="1005.706" Z="145.1458" />
+</Hotspots>
+</HBProfile>

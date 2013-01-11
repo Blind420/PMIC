@@ -1,0 +1,56 @@
+<!-- Profile created by eProfileCreator -->
+<HBProfile>
+	<Name>Rhino Leathers</Name>
+	<MinDurability>0.5</MinDurability>
+	<MinFreeBagSlots>1</MinFreeBagSlots>
+	<SellGrey>True</SellGrey>
+	<SellWhite>False</SellWhite>
+	<SellGreen>False</SellGreen>
+	<MailGreen>True</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MinLevel>71</MinLevel>
+	<MaxLevel>81</MaxLevel>
+	<ProtectedItems>
+		<Item>33568</Item>
+		<Item>44128</Item>
+		<Item>7004</Item>
+	</ProtectedItems>
+	<SubProfile>
+		<Name>Rhino Leather Farm</Name>
+		<MinLevel>76</MinLevel>
+		<MaxLevel>2181</MaxLevel>
+		<Factions>16</Factions>
+		<Factions>634</Factions>
+		<Factions>1711</Factions>
+		<Hotspots>
+			<Hotspot X="7341.382" Y="-1211.686" Z="912.8243" />
+			<Hotspot X="7264.532" Y="-1335.32" Z="911.8265" />
+			<Hotspot X="7177.105" Y="-1431.747" Z="919.9997" />
+			<Hotspot X="7207.053" Y="-1480.71" Z="919.6801" />
+			<Hotspot X="7310.27" Y="-1417.081" Z="911.7209" />
+			<Hotspot X="7434.965" Y="-1307.088" Z="909.7982" />
+			<Hotspot X="7483.44" Y="-1233.532" Z="907.672" />
+			<Hotspot X="7561.115" Y="-1218.484" Z="916.8874" />
+			<Hotspot X="7634.66" Y="-1209.439" Z="928.4063" />
+			<Hotspot X="7694.714" Y="-1070.34" Z="916.6371" />
+			<Hotspot X="7682.638" Y="-970.6478" Z="913.576" />
+			<Hotspot X="7604.992" Y="-891.4125" Z="910.4584" />
+			<Hotspot X="7477.405" Y="-854.4461" Z="913.7874" />
+			<Hotspot X="7337.916" Y="-883.5038" Z="920.534" />
+			<Hotspot X="7297.824" Y="-1001.662" Z="914.0952" />
+			<Hotspot X="7355.819" Y="-1108.131" Z="908.7766" />
+			<Hotspot X="7422.493" Y="-1220.495" Z="902.689" />
+			<Hotspot X="7531.946" Y="-1321.562" Z="927.2216" />
+			<Hotspot X="7472.654" Y="-1413.7" Z="938.7504" />
+			<Hotspot X="7388.098" Y="-1476.299" Z="930.851" />
+			<Hotspot X="7308.221" Y="-1529.149" Z="927.5876" />
+			<Hotspot X="7309.251" Y="-1434.448" Z="915.5054" />
+			<Hotspot X="7304.824" Y="-1286.17" Z="904.7825" />
+		</Hotspots>
+		<Vendors>
+		</Vendors>
+		<AvoidMobs>
+			<Mob Name="Icebound Revenant" Entry="29844" />
+		</AvoidMobs>
+	</SubProfile>
+</HBProfile>

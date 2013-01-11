@@ -1,0 +1,78 @@
+<HBProfile creator="Kickazz006" version="1.0"> <!-- Beginning of HB profile -->
+	<Name>Tol Barad Skinning</Name> <!-- Name of HB profile -->
+  
+	<MinLevel>1</MinLevel>  <!-- minimum level that can use the HBProfile -->
+	<MaxLevel>86</MaxLevel> <!-- max level that can use the HBProfile -->
+	
+    <TargetElites>False</TargetElites> <!-- Target Elites setting -->
+
+	<MinDurability>0.3</MinDurability> <!-- Repair at 30% durability -->
+	<MinFreeBagSlots>2</MinFreeBagSlots> <!-- How many free bag slots to keep until you need to sell / mail -->
+	
+	<!-- Set your selling and mailing here -->
+	<SellGrey>True</SellGrey>
+	<SellWhite>True</SellWhite>
+	<SellGreen>False</SellGreen>
+	<MailWhite>True</MailWhite>
+	<MailGreen>True</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+
+	 
+	<SubProfile> <!-- For multiple profiles, use SubProfile -->
+		<Name></Name>
+	
+		<MinLevel>1</MinLevel> <!-- Minimum Level that can use the SubProfile - Useful if you're leveling and using multiple profiles -->
+		<MaxLevel>86</MaxLevel> <!-- Maximum Level that can use the SubProfile - Useful if you're leveling and using multiple profiles -->
+		<!-- <TargetElites>False</TargetElites> --> <!-- Target Elites setting (Has to be outside of GrindArea but inside SubProfile or HBProfile -->
+		<!-- I have mine inside of HBProfile, so it's de-selected here -->
+	
+		<Mailboxes>	<!-- Ally or Horde -->
+		</Mailboxes>
+	
+		<Vendors> <!-- Ally or Horde -->
+		</Vendors> <!-- If making a leveling profile, you also stick Class Trainers in <Vendors>, per profile -->
+
+		<GrindArea> <!-- Beginning of farming area -->
+			<Factions>22</Factions> <!-- This is considered a(n) "[Undead, Scourge, Wolf, Murloc]" -->
+			<TargetMinLevel>1</TargetMinLevel> <!-- Target minimum level mob -->
+			<TargetMaxLevel>87</TargetMaxLevel> <!-- Target maximum level mob -->
+				   
+			<Hotspots> <!-- These are the points around the area you want to farm -->
+				<Hotspot X="-180.1631" Y="1534.551" Z="20.89309" />
+				<Hotspot X="-199.398" Y="1521.522" Z="22.11573" />
+				<Hotspot X="-215.842" Y="1511.019" Z="22.0912" />
+				<Hotspot X="-232.935" Y="1500.102" Z="22.0503" />
+				<Hotspot X="-260.1841" Y="1486.434" Z="22.06373" />
+				<Hotspot X="-279.519" Y="1471.778" Z="21.98584" />
+				<Hotspot X="-296.6927" Y="1449.562" Z="22.84407" />
+				<Hotspot X="-320.8173" Y="1423.649" Z="20.57377" />
+				<Hotspot X="-351.2951" Y="1392.209" Z="24.21332" />
+				<Hotspot X="-380.0559" Y="1358.447" Z="22.66016" />
+				<Hotspot X="-365.8208" Y="1311.29" Z="19.3805" />
+				<Hotspot X="-338.5141" Y="1289.099" Z="24.69806" />
+				<Hotspot X="-297.3214" Y="1296.861" Z="18.99815" />
+				<Hotspot X="-263.0418" Y="1306.404" Z="22.87811" />
+				<Hotspot X="-246.5746" Y="1334.902" Z="22.51029" />
+				<Hotspot X="-213.6206" Y="1392.419" Z="19.15178" />
+				<Hotspot X="-210.9923" Y="1448.547" Z="21.48667" />
+				<Hotspot X="-167.2391" Y="1484.31" Z="24.01756" />
+				
+				
+			</Hotspots>
+			
+		</GrindArea> <!-- End of farming area -->
+	
+		<AvoidMobs> <!-- Mobs you want to avoid / not target (has to be outside of GrindArea) -->
+		</AvoidMobs>
+
+		<Blackspots> <!-- Problem areas where you get stuck or you want to avoid (has to be outside of GrindArea but inside SubProfile OR HBProfile) -->
+		</Blackspots>
+	
+	</SubProfile> <!-- End of SubProfile - Make another if you're leveling -->
+	
+	<AvoidMobs> <!-- Mobs you want to avoid / not target across your HBProfile such as Fel Reaver or other Elite Mobs -->  
+	</AvoidMobs>
+  
+  <!-- end of hb profile -->
+</HBProfile>

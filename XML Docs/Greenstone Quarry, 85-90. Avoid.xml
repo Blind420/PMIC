@@ -1,0 +1,63 @@
+<HBProfile>
+
+<Name>Greenstone Quarry</Name>
+<MinDurability>0.4</MinDurability>
+<MinFreeBagSlots>1</MinFreeBagSlots>
+
+<MinLevel>1</MinLevel>
+<MaxLevel>91</MaxLevel>
+<Factions>14</Factions>
+
+<MailGrey>false</MailGrey>
+<MailWhite>true</MailWhite>
+<MailGreen>true</MailGreen>
+<MailBlue>true</MailBlue>
+<MailPurple>true</MailPurple>
+
+<SellGrey>true</SellGrey>
+<SellWhite>false</SellWhite>
+<SellGreen>false</SellGreen>
+<SellBlue>false</SellBlue>
+<SellPurple>false</SellPurple>
+
+<Vendors>
+<Vendor Name="Singegruff" Entry="56705" Type="Repair" X="1528.802" Y="-1806.385" Z="246.2" />
+</Vendors>
+
+<Mailboxes>
+<Mailbox X="1605.501" Y="-1790.635" Z="259.996" /> <!-- Dawn's Blossom -->
+</Mailboxes>
+
+<Blackspots>
+</Blackspots>
+
+<AvoidMobs>
+<Mob Name="Greenstone Gorger" Entry="56404" />
+<Mob Name="Greenstone Nibbler" Entry="56401" />
+</AvoidMobs>	
+
+<Hotspots>
+<Hotspot X="2293.973" Y="-1767.791" Z="234.0626" />
+<Hotspot X="2312.607" Y="-1743.487" Z="234.4189" />
+<Hotspot X="2294.455" Y="-1721.484" Z="218.6429" />
+<Hotspot X="2269.944" Y="-1704.705" Z="212.0151" />
+<Hotspot X="2297.899" Y="-1695.253" Z="205.9018" />
+<Hotspot X="2318.251" Y="-1706.898" Z="186.4383" />
+<Hotspot X="2329.059" Y="-1735.505" Z="186.2078" />
+<Hotspot X="2332.412" Y="-1765.347" Z="184.7409" />
+<Hotspot X="2330.813" Y="-1734.952" Z="186.4016" />
+<Hotspot X="2330.26" Y="-1704.905" Z="188.2018" />
+<Hotspot X="2337.641" Y="-1675.744" Z="186.1899" />
+<Hotspot X="2360.072" Y="-1655.251" Z="184.3576" />
+<Hotspot X="2385.32" Y="-1639.073" Z="185.2845" />
+<Hotspot X="2356.297" Y="-1630.767" Z="184.427" />
+<Hotspot X="2326.31" Y="-1628.902" Z="184.4337" />
+<Hotspot X="2297.259" Y="-1621.844" Z="180.4587" />
+<Hotspot X="2269.213" Y="-1610.84" Z="184.6032" />
+<Hotspot X="2238.848" Y="-1610.31" Z="186.5282" />
+<Hotspot X="2223.937" Y="-1636.495" Z="187.3208" />
+<Hotspot X="2234.424" Y="-1664.984" Z="186.2858" />
+<Hotspot X="2259.681" Y="-1681.436" Z="186.5019" />
+<Hotspot X="2288.859" Y="-1677.896" Z="193.9697" />
+</Hotspots>
+</HBProfile>

@@ -1,0 +1,254 @@
+<!--
+		Introduction:
+		Welcome to panYama's profiles that are custom tailored for your benefits in order to achieve as much as possible.
+		These profiles are meant to be used away from keyboard as much as possible so this is taken into account when making these
+		profiles for your personal needs.
+		The profiles are made to eleminate the competition by not using standard pathing based on populating paths.
+		
+		Type Profile:
+		- Reputation
+		
+		BotBase:
+		- Gatherbuddy 2 (HB)
+		
+		Settings:
+		- Set up the bot as standard GB2 without herbing or mining, have RepCollector plugin Enabled.
+		
+		Profile Features:
+		- Reputation with Tillers
+		- Personal reputation with the Person's factions
+		- Cooking Recipes for The Tillers gained
+		- Auto-mated Fishing, no interaction required only a proper setup
+		
+		Feedback: 
+		If the profile is up to par with fast and normal farming the dark soials please write a review on my website baout the profile www.panyama.info or on the Honorbuddy forum. This way people can see it's useful to them if
+		they are in need of reputation. If any mistakes come up, report them trough my post on the Buddyforum, or post on my website trough contact form. No log, is simply no support.
+		
+		Profile Warnings
+         * DO NOT run this profile any other then Gatherbuddy2 bot. Using something else will result in errors.
+  
+         * DO NOT post bugs that are NOT related to this profile by any means, they will get ignored. Bugs that are ment for this profile will be listed and fixed, so the profile
+		 can be updated to run smoothly.
+		 
+		 Profile:
+		 v. 3.0 - route 3
+		 
+		 Changelog:
+		 * v1.0 First revision of this profile.
+		 Date: 02.10.12
+		 * v1.1 second revision, small update regarding vendors.
+		 Date: 02.10.12
+    -->
+	
+	
+<HBProfile creator="panYama" version="1.1">
+		<Name>panYama's - The Tiller's Dark Soil</Name>
+		
+		<!-- General Configuration -->
+		<MinDurability>0.4</MinDurability> 
+		<MinFreeBagSlots>2</MinFreeBagSlots>
+		<MinLevel>90</MinLevel>
+		<MaxLevel>91</MaxLevel>
+		
+		<!-- Vendor Configuration -->
+		<SellGrey>True</SellGrey>
+		<SellWhite>True</SellWhite>
+		<SellGreen>True</SellGreen>
+		<SellBlue>False</SellBlue>
+		<SellPurple>False</SellPurple>
+		
+		<!-- Mail Configuration -->
+		<MailWhite>True</MailWhite>
+		<MailGreen>True</MailGreen>
+		<MailBlue>True</MailBlue>
+		<MailPurple>True</MailPurple>
+		
+		<!-- Mailbox Configuration -->
+		<Mailboxes>
+			<Mailbox X="-208.6809" Y="496.9323" Z="187.2171" />
+		</Mailboxes>
+		
+		<!-- Vendor Configuration -->
+		<Vendors>
+			<Vendor Name="Trader Jambeezi" Entry="59583" Type="Repair" X="-137.2429" Y="469.6483" Z="211.8417" />
+			<Vendor Name="Den Den" Entry="64319" Type="Food" X="-222.6754" Y="525.4271" Z="190.8914" />
+		</Vendors>
+		
+		<!-- Protection Configuration -->
+		<ProtectedItems>
+			<!-- Relics -->
+			<Item name="Jade Cat" entry="79266" />
+			<Item name="Marsh Lily" entry="79268" />
+			<Item name="Blue Feather" entry="79265" />
+			<Item name="Lovely Apple" entry="79267" />
+			<Item name="Ruby Shard" entry="79264" />
+		</ProtectedItems>
+		
+		<!-- Hotspot Configuration -->
+		<Hotspots>
+			<Hotspot X="-96.62112" Y="774.8842" Z="179.4916" />
+			<Hotspot X="-81.68392" Y="813.0515" Z="180.6812" />
+			<Hotspot X="-82.50253" Y="854.0162" Z="181.3531" />
+			<Hotspot X="-90.58116" Y="893.96" Z="181.9705" />
+			<Hotspot X="-115.6438" Y="925.9136" Z="182.4281" />
+			<Hotspot X="-151.0042" Y="946.2936" Z="182.4782" />
+			<Hotspot X="-187.5418" Y="965.7959" Z="182.2665" />
+			<Hotspot X="-221.629" Y="988.7789" Z="182.0896" />
+			<Hotspot X="-242.9891" Y="1026.531" Z="182.4689" />
+			<Hotspot X="-246.4827" Y="1067.03" Z="184.2326" />
+			<Hotspot X="-246.6648" Y="1108.255" Z="186.3431" />
+			<Hotspot X="-246.0428" Y="1149.338" Z="188.3445" />
+			<Hotspot X="-245.0955" Y="1189.751" Z="192.8137" />
+			<Hotspot X="-244.4872" Y="1229.899" Z="202.4501" />
+			<Hotspot X="-246.262" Y="1268.48" Z="215.0911" />
+			<Hotspot X="-249.6846" Y="1307.108" Z="228.9047" />
+			<Hotspot X="-254.9242" Y="1346.361" Z="240.1348" />
+			<Hotspot X="-263.9753" Y="1386.151" Z="242.8618" />
+			<Hotspot X="-274.8853" Y="1425.827" Z="243.3035" />
+			<Hotspot X="-248.4788" Y="1456.402" Z="244.3676" />
+			<Hotspot X="-213.1394" Y="1436.865" Z="244.7254" />
+			<Hotspot X="-187.9135" Y="1404.967" Z="241.8819" />
+			<Hotspot X="-177.0831" Y="1366.262" Z="234.9297" />
+			<Hotspot X="-162.0517" Y="1329.493" Z="226.7526" />
+			<Hotspot X="-122.9549" Y="1319.415" Z="225.0798" />
+			<Hotspot X="-82.21606" Y="1323.537" Z="225.2513" />
+			<Hotspot X="-42.00518" Y="1331.536" Z="227.1104" />
+			<Hotspot X="-1.423322" Y="1339.437" Z="229.0223" />
+			<Hotspot X="37.78871" Y="1330.741" Z="229.4101" />
+			<Hotspot X="52.66452" Y="1292.616" Z="228.7216" />
+			<Hotspot X="30.02735" Y="1259.432" Z="221.6917" />
+			<Hotspot X="-4.192645" Y="1240.364" Z="212.9837" />
+			<Hotspot X="-44.5344" Y="1245.443" Z="208.6959" />
+			<Hotspot X="-84.84122" Y="1239.575" Z="206.6829" />
+			<Hotspot X="-125.2892" Y="1232.854" Z="205.2894" />
+			<Hotspot X="-165.7806" Y="1245.365" Z="206.6119" />
+			<Hotspot X="-191.8789" Y="1277.005" Z="208.407" />
+			<Hotspot X="-219.3056" Y="1306.66" Z="207.3536" />
+			<Hotspot X="-258.835" Y="1303.344" Z="201.3748" />
+			<Hotspot X="-282.5099" Y="1268.641" Z="195.7329" />
+			<Hotspot X="-279.6223" Y="1228.084" Z="190.7506" />
+			<Hotspot X="-273.9198" Y="1188.371" Z="182.7715" />
+			<Hotspot X="-263.4126" Y="1149.17" Z="177.8608" />
+			<Hotspot X="-252.0984" Y="1109.554" Z="176.7275" />
+			<Hotspot X="-263.9809" Y="1070.607" Z="176.1468" />
+			<Hotspot X="-280.6944" Y="1033.105" Z="175.2426" />
+			<Hotspot X="-295.3227" Y="995.058" Z="174.1889" />
+			<Hotspot X="-304.0712" Y="954.9933" Z="173.2019" />
+			<Hotspot X="-322.5022" Y="918.1849" Z="170.9832" />
+			<Hotspot X="-325.2969" Y="877.3152" Z="170.1091" />
+			<Hotspot X="-283.7845" Y="875.7961" Z="171.0332" />
+			<Hotspot X="-259.7281" Y="908.6348" Z="171.8321" />
+			<Hotspot X="-239.6075" Y="944.1995" Z="171.7218" />
+			<Hotspot X="-200.5159" Y="961.0935" Z="172.7433" />
+			<Hotspot X="-160.6888" Y="952.1691" Z="174.5034" />
+			<Hotspot X="-131.2007" Y="924.7476" Z="175.9941" />
+			<Hotspot X="-109.7989" Y="890.0183" Z="176.8258" />
+			<Hotspot X="-106.4726" Y="849.6201" Z="177.8597" />
+			<Hotspot X="-112.5049" Y="809.8377" Z="176.8936" />
+			<Hotspot X="-147.5237" Y="789.8754" Z="176.816" />
+			<Hotspot X="-187.3304" Y="795.2966" Z="174.9539" />
+			<Hotspot X="-223.1773" Y="815.478" Z="173.8438" />
+			<Hotspot X="-253.1784" Y="843.177" Z="174.054" />
+			<Hotspot X="-268.7862" Y="880.2629" Z="174.1331" />
+			<Hotspot X="-257.2596" Y="919.1033" Z="173.455" />
+			<Hotspot X="-227.2565" Y="946.4749" Z="173.512" />
+			<Hotspot X="-187.197" Y="953.1879" Z="173.8974" />
+			<Hotspot X="-146.5571" Y="948.626" Z="176.2413" />
+			<Hotspot X="-108.1246" Y="934.9643" Z="178.1745" />
+			<Hotspot X="-77.82875" Y="907.7781" Z="179.038" />
+			<Hotspot X="-57.62781" Y="872.2813" Z="179.6782" />
+			<Hotspot X="-36.38454" Y="837.4289" Z="178.9743" />
+			<Hotspot X="-3.852118" Y="811.6649" Z="178.5302" />
+			<Hotspot X="36.87671" Y="796.9401" Z="178.7566" />
+			<Hotspot X="78.09998" Y="796.3594" Z="178.1213" />
+			<Hotspot X="118.8231" Y="794.7358" Z="176.2805" />
+			<Hotspot X="156.8741" Y="779.3362" Z="176.1898" />
+			<Hotspot X="192.9306" Y="759.6877" Z="173.8064" />
+			<Hotspot X="230.7219" Y="745.2756" Z="172.271" />
+			<Hotspot X="271.1155" Y="759.1466" Z="172.3372" />
+			<Hotspot X="295.6909" Y="791.9142" Z="173.4507" />
+			<Hotspot X="322.3576" Y="824.7578" Z="175.3011" />
+			<Hotspot X="358.8603" Y="806.6608" Z="175.5466" />
+			<Hotspot X="369.3987" Y="767.2735" Z="175.4246" />
+			<Hotspot X="367.0714" Y="726.8779" Z="176.0815" />
+			<Hotspot X="345.9142" Y="692.4671" Z="175.9126" />
+			<Hotspot X="303.4064" Y="687.1674" Z="176.4609" />
+			<Hotspot X="266.411" Y="703.6811" Z="176.7415" />
+			<Hotspot X="241.6457" Y="736.6855" Z="176.4259" />
+			<Hotspot X="221.7121" Y="772.4808" Z="176.7232" />
+			<Hotspot X="203.1321" Y="808.959" Z="177.7708" />
+			<Hotspot X="189.5881" Y="847.5923" Z="180.2707" />
+			<Hotspot X="177.6434" Y="886.6947" Z="181.7454" />
+			<Hotspot X="168.0507" Y="926.8666" Z="182.3097" />
+			<Hotspot X="166.5909" Y="967.3452" Z="182.05" />
+			<Hotspot X="175.8645" Y="1007.281" Z="182.9027" />
+			<Hotspot X="168.1536" Y="1046.945" Z="182.9462" />
+			<Hotspot X="132.1041" Y="1068.97" Z="182.243" />
+			<Hotspot X="98.00469" Y="1044.725" Z="181.8036" />
+			<Hotspot X="107.4142" Y="1005.361" Z="182.3824" />
+			<Hotspot X="149.677" Y="1007.682" Z="182.5714" />
+			<Hotspot X="180.319" Y="1034.503" Z="183.2469" />
+			<Hotspot X="200.4939" Y="1069.076" Z="189.2656" />
+			<Hotspot X="215.8701" Y="1105.44" Z="200.624" />
+			<Hotspot X="229.8153" Y="1142.823" Z="212.4081" />
+			<Hotspot X="239.4081" Y="1180.727" Z="222.4813" />
+			<Hotspot X="228.1753" Y="1219.503" Z="227.1892" />
+			<Hotspot X="207.1069" Y="1254.762" Z="228.759" />
+			<Hotspot X="185.7325" Y="1290.166" Z="230.3087" />
+			<Hotspot X="152.4714" Y="1313.267" Z="230.8795" />
+			<Hotspot X="112.0107" Y="1316.6" Z="231.1458" />
+			<Hotspot X="71.01183" Y="1314.143" Z="230.8493" />
+			<Hotspot X="30.04122" Y="1317.997" Z="230.0168" />
+			<Hotspot X="-10.59914" Y="1321.033" Z="229.0794" />
+			<Hotspot X="-52.02608" Y="1320.819" Z="227.8383" />
+			<Hotspot X="-92.67871" Y="1319.297" Z="226.4871" />
+			<Hotspot X="-133.5659" Y="1318.67" Z="225.5752" />
+			<Hotspot X="-170.0633" Y="1337.088" Z="227.9974" />
+			<Hotspot X="-209.9279" Y="1328.734" Z="222.236" />
+			<Hotspot X="-238.0152" Y="1301.281" Z="210.9774" />
+			<Hotspot X="-253.1835" Y="1265.415" Z="200.1527" />
+			<Hotspot X="-253.0448" Y="1224.743" Z="192.2846" />
+			<Hotspot X="-241.3881" Y="1186.383" Z="185.5642" />
+			<Hotspot X="-207.4587" Y="1165.177" Z="182.3058" />
+			<Hotspot X="-166.9304" Y="1162.082" Z="181.661" />
+			<Hotspot X="-127.7758" Y="1172.76" Z="181.7635" />
+			<Hotspot X="-87.00992" Y="1180.791" Z="182.5681" />
+			<Hotspot X="-46.67874" Y="1175.338" Z="183.2961" />
+			<Hotspot X="-8.488597" Y="1161.48" Z="183.8411" />
+			<Hotspot X="11.83705" Y="1126.698" Z="183.7759" />
+			<Hotspot X="-25.78994" Y="1106.771" Z="183.4772" />
+			<Hotspot X="-63.47531" Y="1091.142" Z="183.1562" />
+			<Hotspot X="-91.29011" Y="1061.401" Z="182.9611" />
+			<Hotspot X="-104.8734" Y="1023.173" Z="182.187" />
+			<Hotspot X="-91.1821" Y="985.2538" Z="182.2333" />
+			<Hotspot X="-58.93877" Y="961.2173" Z="181.6026" />
+			<Hotspot X="-19.08532" Y="952.1804" Z="180.768" />
+			<Hotspot X="21.54121" Y="956.1295" Z="180.2683" />
+			<Hotspot X="49.71082" Y="984.9407" Z="180.1388" />
+			<Hotspot X="61.06573" Y="1024.334" Z="180.8309" />
+			<Hotspot X="84.84409" Y="1059.157" Z="182.5614" />
+			<Hotspot X="124.4496" Y="1067.901" Z="182.7299" />
+			<Hotspot X="158.9889" Y="1043.985" Z="182.0004" />
+			<Hotspot X="159.282" Y="1003.548" Z="181.433" />
+			<Hotspot X="143.7916" Y="965.5159" Z="181.0289" />
+			<Hotspot X="128.9666" Y="927.17" Z="180.7505" />
+			<Hotspot X="116.3264" Y="888.1913" Z="180.4921" />
+			<Hotspot X="104.654" Y="848.6957" Z="179.6085" />
+			<Hotspot X="76.37517" Y="816.8529" Z="178.8165" />
+			<Hotspot X="41.46709" Y="794.7767" Z="178.5313" />
+			<Hotspot X="14.03545" Y="764.1287" Z="177.7446" />
+			<Hotspot X="-15.79425" Y="735.8945" Z="176.323" />
+			<Hotspot X="-55.66056" Y="731.2488" Z="175.7696" />
+		</Hotspots>
+		
+		<!-- Blackspot Configuration -->
+		<BlackSpots>
+			<Blackspot X="191.9431" Y="1035.04" Z="166.1162" Radius="23.72752" />
+			<!--<Blackspot X="1555.633" Y="-577.4084" Z="306.8076" Radius="26.60284" />-->
+		</BlackSpots>
+		
+		<!-- AvoidMob Configuration -->
+		<AvoidMobs>
+			<!--AvoidMob Name="Jade Guardian" Entry="55236"/-->
+		</AvoidMobs>
+</HBProfile>

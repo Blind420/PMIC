@@ -1,0 +1,88 @@
+<HBProfile>
+  <Name>Brawlers Guild</Name>
+  <!--Brawlers Guild Invite Farming-->
+  <MinDurability>.4</MinDurability>
+  <MinFreeBagSlots>3</MinFreeBagSlots>
+
+  <MailWhite>False</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>True</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+
+  <MinLevel>85</MinLevel>
+  <MaxLevel>101</MaxLevel>
+
+  <SubProfile>
+    <Name>Brawlers Guild</Name>
+    <MinLevel>85</MinLevel>
+    <MaxLevel>101</MaxLevel>
+    
+    <TargetElites>True</TargetElites>
+
+    <Vendors>
+      
+    </Vendors>
+    
+    <Mailbox>
+      
+    </Mailbox>
+
+    <TargetElites>True</TargetElites>
+
+    <Blackspots>
+    <Blackspot X="-2063.691" Y="2373.793" Z="-4.492194" Radius="50" /> 
+      
+    </Blackspots>
+
+
+
+
+    <GrindArea>
+      <Factions>83 1735 2201 1801</Factions>
+      <TargetMinLevel>90</TargetMinLevel>
+      <TargetMaxLevel>120</TargetMaxLevel>
+      <MaximumHotspotTime>90000</MaximumHotspotTime>
+      
+
+      <AvoidMobs>
+      <Mob Name="Kor'kron Flak Cannon" Entry="67885" Type="Repair" X="-1940.198" Y="2466.573" Z="35.98443" />
+      <Mob Name="Beachhead Demolisher" Entry="67395" Type="Repair" X="-1905.201" Y="2425.438" Z="8.46183" />
+      <Mob Name="Warlord Bloodhilt" Entry="67461" Type="Repair" X="-1827.205" Y="2378.628" Z="33.45051" />
+        
+      </AvoidMobs>
+
+
+      <Hotspots>
+        <Hotspot X="-2183.806" Y="2332.468" Z="9.833139" Radius="30" />
+        <Hotspot X="-1902.281" Y="2458.019" Z="7.840156" Radius="30"/>
+        <Hotspot X="-1893.556" Y="2286.176" Z="7.37324" Radius="30"/>
+        <Hotspot X="-1986.573" Y="2528.256" Z="4.94963" Radius="30" />
+        <Hotspot X="-1902.607" Y="2384.472" Z="6.242906" Radius="30" />
+        <Hotspot X="-2014.586" Y="2418.774" Z="4.308148" Radius="30" />
+        <Hotspot X="-2000.761" Y="2338.989" Z="6.178213" Radius="30" />
+        <Hotspot X="-1793.072" Y="2454.8" Z="24.86992" Radius="30" />
+        <Hotspot X="-1767.022" Y="2463.853" Z="25.00888" Radius="30" />
+        
+
+      </Hotspots>
+    </GrindArea>
+  </SubProfile>
+
+  <ProtectedItems>
+    <Item>87213</Item>
+    <!--Mist-Piercing Goggles-->
+    <Item>79249</Item>
+    <!--Tomb of Clear Mind-->
+    <Item>40772</Item>
+    <!--Gnomish Army Knife-->
+
+  </ProtectedItems>
+
+
+</HBProfile>

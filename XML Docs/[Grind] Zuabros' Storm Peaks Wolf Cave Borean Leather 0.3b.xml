@@ -1,0 +1,88 @@
+<HBProfile creator="Vengfull" Version="1.0">
+
+	<Name>Zuabros' Wolf cave Borean Leather Gimorak's Den</Name>
+
+	<MinDurability>0.2</MinDurability>
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+
+	<MailGrey>False</MailGrey>
+	<MailWhite>True</MailWhite>
+	<MailGreen>True</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+	<SellGrey>True</SellGrey>
+	<SellWhite>False</SellWhite>
+	<SellGreen>False</SellGreen>
+	<SellBlue>False</SellBlue>
+	<SellPurple>False</SellPurple>
+       
+       <ProtectedItems>
+		<!--**Important Items**-->
+			<!--**Hearthstone**-->
+			<Item>6948</Item> 
+			<!--**Mining Pick**-->
+			<Item>2901</Item>
+			<!--**Skinning Knife**-->			
+			<Item>7005</Item>
+                        <Item>8491</Item>
+       </ProtectedItems>
+		<Vendors>
+			</Vendors>
+<Mailboxes>
+</Mailboxes>
+
+	<GrindArea>
+		<TargetMinLevel>1</TargetMinLevel>
+		<TargetMaxLevel>99</TargetMaxLevel>
+		<Factions>1712 1711 634 16</Factions> // vyrkul + wolf
+
+   <AvoidMobs>
+	   </AvoidMobs>
+   
+
+
+
+<Hotspots>
+<Hotspot X="7986.588" Y="-1623.433" Z="907.6217" />
+<Hotspot X="8005.779" Y="-1588.147" Z="906.1195" />
+<Hotspot X="8005.455" Y="-1547.733" Z="904.7606" />
+<Hotspot X="7966.303" Y="-1556.183" Z="906.3177" />
+<Hotspot X="7931.97" Y="-1576.33" Z="911.4923" />
+<Hotspot X="7904.189" Y="-1548.338" Z="919.5305" />
+<Hotspot X="7892.496" Y="-1509.432" Z="920.8961" />
+<Hotspot X="7852.601" Y="-1510.364" Z="927.8453" />
+<Hotspot X="7817.799" Y="-1529.838" Z="934.0643" />
+<Hotspot X="7785.086" Y="-1552.066" Z="941.6137" />
+<Hotspot X="7761.47" Y="-1584.322" Z="944.481" />
+<Hotspot X="7737.103" Y="-1615.847" Z="949.7382" />
+<Hotspot X="7700.275" Y="-1632.347" Z="953.9243" />
+<Hotspot X="7667.804" Y="-1611.222" Z="964.0618" />
+<Hotspot X="7654.795" Y="-1573.578" Z="968.6477" />
+<Hotspot X="7643.853" Y="-1534.763" Z="973.0616" />
+<Hotspot X="7614.981" Y="-1506.142" Z="972.6689" />
+<Hotspot X="7585.984" Y="-1477.946" Z="976.5377" />
+<Hotspot X="7560.011" Y="-1449.72" Z="964.8623" />
+<Hotspot X="7543.577" Y="-1413.67" Z="955.565" />
+<Hotspot X="7531.275" Y="-1377.774" Z="940.7822" />
+<Hotspot X="7525.131" Y="-1416.351" Z="951.0526" />
+<Hotspot X="7543.452" Y="-1450.658" Z="963.5082" />
+<Hotspot X="7563.839" Y="-1483.107" Z="977.1979" />
+<Hotspot X="7600.182" Y="-1500.836" Z="973.517" />
+<Hotspot X="7617.275" Y="-1537.487" Z="972.8295" />
+<Hotspot X="7635.416" Y="-1573.618" Z="972.7325" />
+<Hotspot X="7658.053" Y="-1606.484" Z="965.2952" />
+<Hotspot X="7682.82" Y="-1636.245" Z="955.097" />
+<Hotspot X="7719.738" Y="-1652.098" Z="953.9197" />
+<Hotspot X="7740.321" Y="-1617.214" Z="949.6907" />
+<Hotspot X="7764.249" Y="-1584.686" Z="944.5604" />
+<Hotspot X="7796.006" Y="-1560.162" Z="940.9994" />
+<Hotspot X="7831.929" Y="-1543.252" Z="931.7522" />
+<Hotspot X="7868.722" Y="-1527.291" Z="925.3629" />
+<Hotspot X="7895.888" Y="-1556.281" Z="919.9467" />
+<Hotspot X="7904.345" Y="-1595.342" Z="913.3152" />
+<Hotspot X="7940.686" Y="-1611.679" Z="909.051" />
+</Hotspots>
+	</GrindArea>
+
+
+</HBProfile>

@@ -1,0 +1,50 @@
+<HBProfile>
+  <Name>Blasted Lands Rugged Leather Farm</Name>
+  <MinDurability>0.2</MinDurability>
+  <MinFreeBagSlots>2</MinFreeBagSlots>
+  
+  <MinLevel>1</MinLevel>
+  <MaxLevel>86</MaxLevel>
+  <Factions>189 49 38 90</Factions>
+  
+  <MailGrey>False</MailGrey>
+  <MailWhite>True</MailWhite>
+  <MailGreen>True</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+ 
+  <SellGrey>True</SellGrey>
+  <SellWhite>False</SellWhite>
+  <SellGreen>False</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+  
+  <Vendors>
+   </Vendors>
+   
+   
+   	<Mailboxes>
+	</Mailboxes>
+ 
+  
+  <GrindArea>
+		<MaxDistance>55</MaxDistance>
+		<TargetMinLevel>35</TargetMinLevel>
+		<TargetMaxLevel>80</TargetMaxLevel>
+		<Hotspots>
+			<Hotspot X="-11447.97" Y="-3253.346" Z="10.65007" />
+			<Hotspot X="-11416.02" Y="-3282.918" Z="6.698584" />
+			<Hotspot X="-11359.53" Y="-3246.795" Z="8.632468" />
+			<Hotspot X="-11292.54" Y="-3134.155" Z="4.36039" />
+			<Hotspot X="-11371.78" Y="-3143.983" Z="7.878361" />
+			<Hotspot X="-11364.73" Y="-3025.289" Z="-4.200822" />
+			<Hotspot X="-11426.83" Y="-2983.758" Z="1.182823" />
+			<Hotspot X="-11487.74" Y="-3011.74" Z="8.102207" />
+			<Hotspot X="-11508.14" Y="-2995.966" Z="12.59653" />
+			<Hotspot X="-11532.47" Y="-3049.455" Z="8.978371" />
+			<Hotspot X="-11487.53" Y="-3073.642" Z="2.765314" />
+			<Hotspot X="-11528.29" Y="-3107.526" Z="1.867907" />
+			<Hotspot X="-11619.5" Y="-3077.048" Z="10.07337" />
+		</Hotspots>
+	</GrindArea>
+</HBProfile>

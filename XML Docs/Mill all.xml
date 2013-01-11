@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Professionbuddy>
+  <While Condition="true" IgnoreCanRun="True">
+    <DisenchantAction ActionType="Mill" ItemTarget="All" ItemQuality="Uncommon" ItemId="0" />
+  </While>
+</Professionbuddy>

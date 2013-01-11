@@ -1,0 +1,83 @@
+<HBProfile creator="Vengfull" Version="1.0">
+
+	<Name>Zuabros' Borean Tundra Rhinos</Name>
+
+	<MinDurability>0.2</MinDurability>
+	<MinFreeBagSlots>2</MinFreeBagSlots>
+
+	<MailGrey>False</MailGrey>
+	<MailWhite>True</MailWhite>
+	<MailGreen>True</MailGreen>
+	<MailBlue>True</MailBlue>
+	<MailPurple>True</MailPurple>
+	<SellGrey>True</SellGrey>
+	<SellWhite>False</SellWhite>
+	<SellGreen>False</SellGreen>
+	<SellBlue>False</SellBlue>
+	<SellPurple>False</SellPurple>
+       
+       <ProtectedItems>
+		<!--**Important Items**-->
+			<!--**Hearthstone**-->
+			<Item>6948</Item> 
+			<!--**Mining Pick**-->
+			<Item>2901</Item>
+			<!--**Skinning Knife**-->			
+			<Item>7005</Item>
+                        <Item>8491</Item>
+       </ProtectedItems>
+		<Vendors>
+			<Vendor Name="Anwehu" Entry="27667" Type="Repair" X="-1847.711" Y="5506.608" Z="-12.42743" />
+		</Vendors>
+<Mailboxes>
+<Mailbox X="-1776.311" Y="5173.448" Z="-40.20782" />
+</Mailboxes>
+
+	<GrindArea>
+		<TargetMinLevel>68</TargetMinLevel>
+		<TargetMaxLevel>72</TargetMaxLevel>
+		<Factions>15 1711</Factions> // Rhinos, Wolf
+
+   <AvoidMobs>
+	<Mob Name="Nedar, Lord of Rhinos" Entry="25801" />
+
+   </AvoidMobs>
+   
+
+
+
+<Hotspots>
+<Hotspot X="3141.791" Y="5887.679" Z="95.91264" />
+<Hotspot X="3135.66" Y="5878.474" Z="96.45209" />
+<Hotspot X="3114.781" Y="5856.374" Z="93.52376" />
+<Hotspot X="3087.251" Y="5849.03" Z="93.63008" />
+<Hotspot X="3068.626" Y="5872.721" Z="95.55005" />
+<Hotspot X="3051.41" Y="5896.917" Z="96.77644" />
+<Hotspot X="3051.408" Y="5925.915" Z="102.8732" />
+<Hotspot X="3075.953" Y="5941.119" Z="99.26437" />
+<Hotspot X="3106.162" Y="5942.74" Z="97.62819" />
+<Hotspot X="3133.494" Y="5931.292" Z="88.93388" />
+<Hotspot X="3160.903" Y="5919.258" Z="94.78724" />
+<Hotspot X="3185.371" Y="5933.726" Z="97.20958" />
+<Hotspot X="3201.997" Y="5955.353" Z="93.90297" />
+<Hotspot X="3193.141" Y="5984.497" Z="91.82762" />
+<Hotspot X="3210.195" Y="6007.315" Z="86.60792" />
+<Hotspot X="3237.085" Y="6020.567" Z="82.95551" />
+<Hotspot X="3265.292" Y="6016.915" Z="81.39341" />
+<Hotspot X="3291.935" Y="6003.973" Z="80.78584" />
+<Hotspot X="3316.591" Y="5990.491" Z="78.59141" />
+<Hotspot X="3314.145" Y="5980.513" Z="80.7241" />
+<Hotspot X="3322.456" Y="5952.821" Z="82.29115" />
+<Hotspot X="3325.067" Y="5923.058" Z="84.4896" />
+<Hotspot X="3315.231" Y="5896.795" Z="85.89371" />
+<Hotspot X="3293.931" Y="5883.65" Z="85.97227" />
+<Hotspot X="3265.419" Y="5874.414" Z="88.82375" />
+<Hotspot X="3238.05" Y="5861.019" Z="92.83345" />
+<Hotspot X="3208.742" Y="5865.907" Z="93.78331" />
+<Hotspot X="3179.566" Y="5858.542" Z="94.07335" />
+<Hotspot X="3152.509" Y="5859.515" Z="92.03027" />
+</Hotspots>
+	</GrindArea>
+
+
+</HBProfile>

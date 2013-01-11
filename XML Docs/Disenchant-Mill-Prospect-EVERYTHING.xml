@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Professionbuddy>
+  <StackItemsAction />
+  <DisenchantAction ActionType="Mill" ItemTarget="All" ItemQuality="Uncommon" ItemId="0" />
+  <DisenchantAction ActionType="Mill" ItemTarget="All" ItemQuality="Rare" ItemId="0" />
+  <DisenchantAction ActionType="Mill" ItemTarget="All" ItemQuality="Uncommon" ItemId="0" />
+  <DisenchantAction ActionType="Mill" ItemTarget="All" ItemQuality="Uncommon" ItemId="0" />
+  <StackItemsAction />
+</Professionbuddy>
