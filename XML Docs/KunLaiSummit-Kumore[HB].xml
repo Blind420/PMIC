@@ -24,8 +24,19 @@
 	</Vendors>
 	
 	<Mailboxes>
-
+      <Mailbox X="3107.229" Y="1231.179" Z="654.2101" />
 	</Mailboxes>
+	
+  <Blackspots>
+	<Blackspot X="2925.372" Y="1953.978" Z="673.5714" Radius="86.57587" Height="24.31168" />
+	<Blackspot X="2961.444" Y="2013.422" Z="668.9512" Radius="23.89481" />
+	<Blackspot X="2999.969" Y="1964.813" Z="668.6387" Radius="53.37908" />
+	<Blackspot X="2888.285" Y="1980.562" Z="661.3121" Radius="57.90126" />
+	<Blackspot X="3014.104" Y="1678.064" Z="682.872" Radius="47.15609" />
+	<Blackspot X="2926.466" Y="1722.173" Z="670.9951" Radius="54.89809" />
+	<Blackspot X="2989.999" Y="1701.87" Z="676.6926" Radius="77.34692" Height="14.79517" />
+	<Blackspot X="3298.39" Y="2634.96" Z="710.3105" Radius="18.21825" />
+  </Blackspots>
 
   <Hotspots>
     <Hotspot X="1833.08" Y="1562.094" Z="564.7009" />
