@@ -80,6 +80,25 @@
     <Blackspot X="9.963943" Y="1518.568" Z="395.5367" Radius="40" />
     <Blackspot X="189.3745" y="1516.316" Z="444.2562" Radius="100" />
     <Blackspot X="-1024.274" Y="1406.202" Z="158.7618" Radius="100" />
+	<Blackspot X="101.3672" Y="900.0157" Z="167.3606" Radius="20" />
+    <Blackspot X="131.1597" Y="964.3104" Z="164.7841" Radius="20" />
+    <Blackspot X="158.9308" Y="925.1114" Z="166.4604" Radius="20" />
+    <Blackspot X="157.5085" Y="882.5998" Z="165.8954" Radius="20" />
+    <Blackspot X="105.3376" Y="891.6042" Z="165.9134" Radius="20" />
+    <Blackspot X="116.7162" Y="924.7815" Z="166.8432" Radius="20" />
+    <Blackspot X="118.1193" Y="957.825" Z="164.7841" Radius="20" />
+    <Blackspot X="111.0901" Y="991.5943" Z="171.0049" Radius="20" />
+    <Blackspot X="93.98831" Y="1022.003" Z="170.3312" Radius="20" />
+    <Blackspot X="76.5239" Y="1056.37" Z="166.9261" Radius="20" />
+    <Blackspot X="44.53322" Y="1079.235" Z="171.6694" Radius="20" />
+    <Blackspot X="27.62292" Y="996.8632" Z="166.093" Radius="20" />
+    <Blackspot X="15.35878" Y="977.6282" Z="166.8188" Radius="20" />
+    <Blackspot X="3.231284" Y="959.3464" Z="165.9171" Radius="20" />
+    <Blackspot X="-12.76695" Y="942.4952" Z="165.9333" Radius="20" />
+	<Blackspot X="-10.37313" Y="920.4109" Z="165.7932" Radius="20" />
+	<Blackspot X="20.10668" Y="931.9103" Z="167.0279" Radius="20" />
+	<Blackspot X="49.93579" Y="958.666" Z="165.838" Radius="20" />
+	<Blackspot X="64.59258" Y="983.5197" Z="165.8372" Radius="20" />
   </Blackspots>
 
   <Hotspots>
